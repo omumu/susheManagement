@@ -1,0 +1,203 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #F8F9FA;
+}
+-->
+</style>
+<script type="text/javascript" src="/sflatsys/js/popup.js"></script>
+<link href="/sflatsys/images/skin.css" rel="stylesheet" type="text/css" />
+<body>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td class="left_txt2" width="17" height="29" valign="top" background="/sflatsys/images/mail_leftbg.gif"><img src="/sflatsys/images/left-top-right.gif" width="17" height="29" /></td>
+    <td class="left_txt2" width="1212" height="29" valign="top" background="/sflatsys/images/content-bg.gif"><table width="100%" height="31" border="0" cellpadding="0" cellspacing="0" class="left_topbg" id="table2">
+      <tr>
+        <td class="left_txt2" height="31"><div class="titlebt">系统管理</div></td>
+      </tr>
+    </table></td>
+    <td class="left_txt2" width="22" valign="top" background="/sflatsys/images/mail_rightbg.gif"><img src="/sflatsys/images/nav-right-bg.gif" width="16" height="29" /></td>
+  </tr>
+  <tr>
+    <td class="left_txt2" height="71" valign="middle" background="/sflatsys/images/mail_leftbg.gif">&nbsp;</td>
+    <td class="left_txt2" valign="top" bgcolor="#F7F8F9"><table width="100%" height="141" border="0" cellpadding="0" cellspacing="0">
+      
+      <tr>
+        <td  height="141" valign="top"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+         
+          <tr>
+            <td><table width="100%" height="31" border="0" cellpadding="0" cellspacing="0" class="nowtable">
+              <tr>
+                <td class="left_bt2">&nbsp;&nbsp;&nbsp;&nbsp;用户管理</td>
+              </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td height="46"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			    <tr>
+                <td  width="20%" height="30" align="center" bgcolor="#f2f2f2" class="left_txt2">请输入用户名：</td>
+                <td class="left_txt2" width="30%" bgcolor="#f2f2f2"><input name="title" type="text" id="title" size="30" /></td>
+                <td class="left_txt2" width="20%" align="center" bgcolor="#f2f2f2"><span class="left_txt2">请输入****：</span></td>
+                <td class="left_txt2" width="30%" bgcolor="#f2f2f2"><input name="title2" type="text" id="title2" size="30" /></td>
+			    </tr>
+              
+
+             <tr>
+              <td class="left_txt2" height="40" colspan="4" align="center"><input type="submit" value="查询用户" name="B1" />        
+                &nbsp;&nbsp;&nbsp;        <input type="reset" onclick="adduser();" value="添加用户" name="B12" />
+                
+                <script type="text/javascript">
+                function adduser()
+                {
+                pop("/sflatsys/admin/adduser.html","添加用户",500,310);
+                }
+                </script>
+                
+                </td>
+              </tr>
+              
+              
+            </table></td>
+          </tr>
+        </table>
+		
+		
+		
+		
+		
+		
+		<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+         
+          <tr>
+            <td ><table width="100%" height="31" border="0" cellpadding="0" cellspacing="0" class="nowtable">
+              <tr>
+                <td  class="left_bt2">&nbsp;&nbsp;&nbsp;&nbsp;用户列表</td>
+              </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td  height="110"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			    <tr>
+                <td  width="152" height="30" align="center" bgcolor="#f2f2f2" class="left_txt2">用户名</td>
+                <td class="left_txt2" width="148" height="30" align="center" bgcolor="#f2f2f2">密码</td>
+                <td class="left_txt2" width="148" align="center" bgcolor="#f2f2f2">***</td>
+                <td class="left_txt2" width="148" align="center" bgcolor="#f2f2f2">***</td>
+                <td class="left_txt2" width="148" align="center" bgcolor="#f2f2f2">***</td>
+                <td class="left_txt2" width="251" align="center" bgcolor="#f2f2f2">***</td>
+                <td class="left_txt2" width="100" align="center" bgcolor="#f2f2f2">修改</td>
+                <td class="left_txt2" width="100" height="30" align="center" bgcolor="#f2f2f2">删除</td>
+			    </tr>
+              <tr>
+                <td width="152" height="30" align="center" class="left_txt2">张三</td>
+                <td class="left_txt2" width="148" height="30" align="center">123456</td>
+                <td class="left_txt2" align="center">***</td>
+                <td class="left_txt2" align="center">***</td>
+                <td class="left_txt2" align="center">***</td>
+                <td class="left_txt2" align="center">***</td>
+                <td class="left_txt2" width="100" height="30" align="center" onclick="adduser();" >修改</td>
+                <td class="left_txt2" width="100" height="30" align="center">删除</td>
+              </tr>
+                 <tr>
+                <td  width="152" height="30" align="center" bgcolor="#f2f2f2" class="left_txt2">李四</td>
+                <td class="left_txt2" width="148" height="30" align="center" bgcolor="#f2f2f2">123456</td>
+                <td class="left_txt2" align="center" bgcolor="#f2f2f2">***</td>
+                <td class="left_txt2" align="center" bgcolor="#f2f2f2">***</td>
+                <td class="left_txt2" align="center" bgcolor="#f2f2f2">***</td>
+                <td class="left_txt2" align="center" bgcolor="#f2f2f2">***</td>
+                <td class="left_txt2" width="100" height="30" align="center" bgcolor="#f2f2f2" onclick="adduser();" >修改</td>
+                <td class="left_txt2" width="100" height="30" align="center" bgcolor="#f2f2f2">删除</td>
+                 </tr>
+              <tr>
+                <td width="152" height="30" align="center" class="left_txt2">王五</td>
+                <td class="left_txt2" width="148" height="30" align="center">123456</td>
+                <td class="left_txt2" align="center">***</td>
+                <td class="left_txt2" align="center">***</td>
+                <td class="left_txt2" align="center">***</td>
+                <td class="left_txt2" align="center">***</td>
+                <td class="left_txt2" width="100" height="30" align="center" onclick="adduser();" >修改</td>
+                <td class="left_txt2" width="100" height="30" align="center">删除</td>
+              </tr>
+                 <tr>
+                <td  width="152" height="30" align="center" bgcolor="#f2f2f2" class="left_txt2">小张</td>
+                <td class="left_txt2" width="148" height="30" align="center" bgcolor="#f2f2f2">123456</td>
+                <td class="left_txt2" align="center" bgcolor="#f2f2f2">***</td>
+                <td class="left_txt2" align="center" bgcolor="#f2f2f2">***</td>
+                <td class="left_txt2" align="center" bgcolor="#f2f2f2">***</td>
+                <td class="left_txt2" align="center" bgcolor="#f2f2f2">***</td>
+                <td class="left_txt2" width="100" height="30" align="center" bgcolor="#f2f2f2" onclick="adduser();" >修改</td>
+                <td class="left_txt2" width="100" height="30" align="center" bgcolor="#f2f2f2">删除</td>
+                 </tr>
+              <tr>
+                <td width="152" height="30" align="center" class="left_txt2">小李</td>
+                <td class="left_txt2" width="148" height="30" align="center">123456</td>
+                <td class="left_txt2" align="center">***</td>
+                <td class="left_txt2" align="center">***</td>
+                <td class="left_txt2" align="center">***</td>
+                <td class="left_txt2" align="center">***</td>
+                <td class="left_txt2" width="100" height="30" align="center" onclick="adduser();" >修改</td>
+                <td class="left_txt2" width="100" height="30" align="center">删除</td>
+              </tr>
+               <tr>
+                <td width="152" height="30" align="center" bgcolor="#f2f2f2" class="left_txt2">小王</td>
+                <td class="left_txt2" width="148" height="30" align="center" bgcolor="#f2f2f2">123456</td>
+                <td class="left_txt2" align="center" bgcolor="#f2f2f2">***</td>
+                <td class="left_txt2" align="center" bgcolor="#f2f2f2">***</td>
+                <td class="left_txt2" align="center" bgcolor="#f2f2f2">***</td>
+                <td class="left_txt2" align="center" bgcolor="#f2f2f2">***</td>
+                <td class="left_txt2" width="100" height="30" align="center" bgcolor="#f2f2f2" onclick="adduser();" >修改</td>
+                <td class="left_txt2" width="100" height="30" align="center" bgcolor="#f2f2f2">删除</td>
+               </tr>
+              <tr>
+                <td width="152" height="30" align="center" class="left_txt2">一桶原油</td>
+                <td class="left_txt2" width="148" height="30" align="center">123456</td>
+                <td class="left_txt2" align="center">***</td>
+                <td class="left_txt2" align="center">***</td>
+                <td class="left_txt2" align="center">***</td>
+                <td class="left_txt2" align="center">***</td>
+                <td class="left_txt2" width="100" height="30" align="center" onclick="adduser();" >修改</td>
+                <td class="left_txt2" width="100" height="30" align="center">删除</td>
+              </tr>
+                
+             <tr>
+              <td class="left_txt2" height="30" colspan="8" align="center">当前 1 / 3 页 &nbsp;&nbsp;&nbsp;首页&nbsp;&nbsp;&nbsp;&nbsp;上页&nbsp;&nbsp;&nbsp;&nbsp;下页&nbsp;&nbsp;&nbsp;&nbsp;末页&nbsp;&nbsp;&nbsp;&nbsp;
+			  跳转到第
+			  
+			  <select name="">
+			  <option>1</option>
+			  <option>2</option>
+			  <option>3</option>
+			  </select>
+			  
+			  页</td>
+              </tr>
+              
+              <tr>
+                <td class="left_txt2" height="13" colspan="8" align="right" >&nbsp;</td>
+              </tr>
+            </table></td>
+          </tr>
+        </table>
+		
+		
+		
+		
+		
+		
+          </td>
+      </tr>
+    </table></td>
+    <td class="left_txt2" background="/sflatsys/images/mail_rightbg.gif">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="left_txt2" valign="middle" background="/sflatsys/images/mail_leftbg.gif"><img src="/sflatsys/images/buttom_left2.gif" width="17" height="17" /></td>
+      <td class="left_txt2" height="17" valign="top" background="/sflatsys/images/buttom_bgs.gif"><img src="/sflatsys/images/buttom_bgs.gif" width="17" height="17" /></td>
+    <td class="left_txt2" background="/sflatsys/images/mail_rightbg.gif"><img src="/sflatsys/images/buttom_right2.gif" width="16" height="17" /></td>
+  </tr>
+</table>
+
+</body>
